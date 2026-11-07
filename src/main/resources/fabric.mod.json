@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hitfx",
+  "version": "${version}",
+  "name": "HitFX",
+  "description": "PvP hit feedback: Ripple, Hit Splash, Crit Stars, Shield Breaker, Backtrack ghost, Afterglow kill pillar and a Target HUD, with violet and gold themes.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.hitfx.HitFXClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
